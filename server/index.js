@@ -27,5 +27,3 @@ mongoose
     app.listen(PORT, () => console.log(`Server running on port: ${PORT}`))
   )
   .catch(error => console.log(error.message));
-
-//pkill -f node to kill anything on port 5000
